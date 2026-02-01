@@ -86,7 +86,7 @@ cv:
       - label: Languages
         details: C++, C, Python, SQL
       - label: Specialized Tech
-        details: Smart TV SDKs, STB Middleware, System Software, Performance Profiling
+        details: Smart TV/STB SDKs, System Software, Performance Profiling
       - label: Hardware/Systems
         details: HPE ProLiant Servers, Embedded Systems, Deep Learning (Image Recognition)
       - label: Tools
