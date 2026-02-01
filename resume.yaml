@@ -70,7 +70,7 @@ cv:
         start_date: 2016-09
         end_date: 2018-06
         highlights:
-          - Master's Thesis: Analysis and Optimization of the Input Pipeline and Use of XLA for TensorFlow Deep Learning Systems.
+          - Master's Thesis, Analysis and Optimization of the Input Pipeline and Use of XLA for TensorFlow Deep Learning Systems.
           - Contributor to CLUSIM (Trace-Driven Cluster Simulator) and SOFA (Cross-framework Performance Profiler).
           - Heterogeneous Computing & Optimization. Optimized MCML simulations using CUDA, OpenCL, and OpenMP for parallel execution.
           - Caffe Performance Tuning. Improved CPU inference speed for the Caffe framework using OpenMP-based thread optimization.
@@ -80,7 +80,7 @@ cv:
         start_date: 2012-09
         end_date: 2016-06
         highlights:
-          - Undergraduate Project: Smart Home Application development.
+          - Project, Smart Home Application development.
 
     skills:
       - label: Languages
