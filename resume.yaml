@@ -72,13 +72,3 @@ cv:
         details: HPE ProLiant Servers, Embedded Systems, Deep Learning (Image Recognition)
       - label: Tools
         details: Git, Linux/Unix, Debugging Tools, Performance Profiling Tools
-
-design:
-  theme: sb2nov
-  font: Latin Modern Serif
-  page_size: a4paper
-  margins:
-    top: 2 cm
-    bottom: 2 cm
-    left: 2 cm
-    right: 2 cm
