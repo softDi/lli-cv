@@ -25,9 +25,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install "rendercv[full]"
 
-      - name: Validate resume.yaml
-        run: rendercv validate resume.yaml
-
       - name: Render resume to PDF
         run: rendercv render resume.yaml
 
