@@ -66,7 +66,6 @@ cv:
     education:
       - institution: National Taiwan University
         area: Computer Science and Information Engineering
-        degree: Master
         start_date: 2016-09
         end_date: 2018-06
         highlights:
@@ -76,7 +75,6 @@ cv:
           - Caffe Performance Tuning. Improved CPU inference speed for the Caffe framework using OpenMP-based thread optimization.
       - institution: National Taipei University
         area: Computer Science and Information Engineering
-        degree: Bachelor
         start_date: 2012-09
         end_date: 2016-06
         highlights:
