@@ -6,16 +6,31 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   rendercv:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      
-      - uses: sinaatalay/rendercv-pipeline@v1.1
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          resume_yaml_file: resume.yaml
-          
+          python-version: '3.12'
+
+      - name: Install RenderCV
+        run: |
+          python -m pip install --upgrade pip
+          pip install "rendercv[full]"
+
+      - name: Validate resume.yaml
+        run: rendercv validate resume.yaml
+
+      - name: Render resume to PDF
+        run: rendercv render resume.yaml
+
       - name: Upload PDF to Release
         uses: softprops/action-gh-release@v2
         if: github.ref == 'refs/heads/main'
