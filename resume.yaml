@@ -82,7 +82,7 @@ cv:
 
     skills:
       - label: Languages
-        details: C++, C, Python, SQL
+        details: C++, C, Python
       - label: Specialized Tech
         details: Smart TV/STB SDKs, System Software, Performance Profiling
       - label: Hardware/Systems
