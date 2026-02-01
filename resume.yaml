@@ -63,6 +63,29 @@ cv:
           - Conducted deep learning surveys and implemented image recognition systems.
           - Optimized data preprocessing analysis for machine learning workflows.
 
+    education:
+      - institution: National Taiwan University
+        area: Computer Science and Information Engineering
+        degree: Master of Science
+        start_date: 2016-09
+        end_date: 2018-06
+        highlights:
+          - "Master's Thesis: Analysis and Optimization of the Input Pipeline and Use of XLA for TensorFlow Deep Learning Systems."
+          - "Contributor to CLUSIM (Trace-Driven Cluster Simulator) and SOFA (Cross-framework Performance Profiler)."
+      - institution: National Taipei University
+        area: Computer Science and Information Engineering
+        degree: Bachelor of Science
+        start_date: 2012-09
+        end_date: 2016-06
+        highlights:
+          - Undergraduate Project: Smart Home Application development.
+
+    projects:
+      - name: Heterogeneous Computing & Optimization
+        details: "Optimized MCML simulations using CUDA, OpenCL, and OpenMP for parallel execution."
+      - name: Caffe Performance Tuning
+        details: "Improved CPU inference speed for the Caffe framework using OpenMP-based thread optimization."
+
     skills:
       - label: Languages
         details: C++, C, Python, SQL
