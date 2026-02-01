@@ -1,10 +1,17 @@
 name: Render Resume
-on: [push]
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Allows you to run it manually
+
 jobs:
-  render:
+  rendercv:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: rendercv/rendercv-pipeline-action@v1
+      - uses: rendercv/rendercv-pipeline-action@v0
         with:
-          render_command: render resume.yaml
+          resume_yaml_file: resume.yaml
+          # This will automatically create a release with the PDF
