@@ -1,0 +1,84 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+
+cv:
+  name: YuanDi Li
+  location: Taiwan
+  email: lisoftdi@gmail.com
+  phone: "tel:+886-936-243-826"
+  social_networks:
+    - network: LinkedIn
+      username: yuandi-li-47015b143
+
+  summary: >
+    Staff Software Developer with extensive experience in high-performance 
+    C++ development for Smart TV, Set-Top Box (STB), and enterprise-grade 
+    server systems. Proven track record in system software engineering, 
+    performance profiling, and hardware-software integration.
+
+  sections:
+    experience:
+      - company: Xperi Inc.
+        position: Staff Software Developer
+        location: Taiwan
+        start_date: 2023-09
+        end_date: present
+        highlights:
+          - C++ development for Smart TV and Set-Top Box (STB) platforms.
+          - Appointed as the primary Owner of Application Management for the TV/STB SDK, defining and standardizing interface contracts between the SDK and SoC-level managers.
+          - Engineered performance optimizations for the bootup sequence, achieving a measurable reduction in startup latency of over 300ms.
+          - Revolutionized RCU (Remote Control Unit) keycode handling by introducing a dynamic loading mechanism, significantly enhancing development velocity and debugging efficiency.
+          - Provided architectural oversight for cross-platform SDK integration, ensuring consistent performance across diverse hardware configurations.
+      - company: Xperi Inc.
+        position: Senior Software Developer
+        location: Taiwan
+        start_date: 2022-07
+        end_date: 2023-08
+        highlights:
+          - Spearheaded a technical task force to execute a comprehensive C++ code refactoring, significantly improving architectural maintainability and reducing technical debt.
+          - Engineered a novel application stacking mechanism to optimize memory management, effectively resolving critical memory leaks.
+          - Enhanced system reliability by stabilizing application switching logic, resulting in a more seamless user experience on Smart TV and STB platforms.
+          - Mentored a small group of developers on best practices for clean code and modular design patterns.
+      - company: Vewd
+        position: Software Developer
+        location: New Taipei City, Taiwan
+        start_date: 2022-01
+        end_date: 2022-07
+        highlights:
+          - Focused on C++ development for Smart TV and STB middleware.
+      - company: Hewlett Packard Enterprise (HPE)
+        position: System Software Engineer
+        location: Taipei, Taiwan
+        start_date: 2019-07
+        end_date: 2022-01
+        highlights:
+          - Designed enhancements and updates for systems software subsystems.
+          - Developed a diagnostic process profiling tool for performance analysis.
+          - Contributed to the development of HPE ProLiant ML110, DL160, DL325 Gen10, and DL325 Gen10 Plus V2 Servers.
+      - company: ADLINK Technology
+        position: Software Engineer Intern
+        location: New Taipei City, Taiwan
+        start_date: 2018-03
+        end_date: 2018-08
+        highlights:
+          - Conducted deep learning surveys and implemented image recognition systems.
+          - Optimized data preprocessing analysis for machine learning workflows.
+
+    skills:
+      - label: Languages
+        details: C++, C, Python, SQL
+      - label: Specialized Tech
+        details: Smart TV SDKs, STB Middleware, System Software, Performance Profiling
+      - label: Hardware/Systems
+        details: HPE ProLiant Servers, Embedded Systems, Deep Learning (Image Recognition)
+      - label: Tools
+        details: Git, Linux/Unix, Debugging Tools, Performance Profiling Tools
+
+design:
+  theme: sb2nov
+  font: Latin Modern Serif
+  page_size: a4paper
+  margins:
+    top: 2 cm
+    bottom: 2 cm
+    left: 2 cm
+    right: 2 cm
