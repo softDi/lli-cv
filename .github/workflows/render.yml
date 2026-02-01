@@ -4,14 +4,25 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch: # Allows you to run it manually
+  workflow_dispatch:
 
 jobs:
   rendercv:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: rendercv/rendercv-pipeline@v2024.06
+      
+      - uses: sinaatalay/rendercv-pipeline@v1.1
         with:
           resume_yaml_file: resume.yaml
-          # This will automatically create a release with the PDF
+          
+      - name: Upload PDF to Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref == 'refs/heads/main'
+        with:
+          files: rendercv_output/*.pdf
+          tag_name: latest
+          name: Latest Resume
+          body: "Automated build of YuanDi Li's Resume"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
