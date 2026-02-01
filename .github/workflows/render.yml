@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: rendercv/rendercv-pipeline@v0
+      - uses: rendercv/rendercv-pipeline
         with:
           resume_yaml_file: resume.yaml
           # This will automatically create a release with the PDF
